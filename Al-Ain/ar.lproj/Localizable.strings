@@ -1,0 +1,117 @@
+/* 
+  Localizable.strings
+  Created by Amany El hadary on 04/11/2020.
+  Copyright (c) 2020 Amany El hadary. All rights reserved.
+*/
+
+"About" = "عن العين الإخباریة";
+"Opinion" = "الرأي";
+"Vedio" = "   فيديو   " ;
+"InfoGraph" = "   إنفوجراف   ";
+"Photos" = "   صور    ";
+"Sections" = "الأقسام" ;
+"Hashtags" = "هاشتاقات";
+"Countries" = "البلدان";
+"Pages" = "صفحات";
+"Home" = "الرئيسية";
+"HomeTab" = "العالم الیوم";
+"Corona" = "كورونا";
+"LatestNews" = "أحدث الأخبار";
+"Trend" = "الأكثر قراءة";
+"ViewTabBar" = "شاهد";
+"OpinionTabBar" = "فكر ورأي";
+"MyNewsTabBar" = "اخباري";
+"Notifications" = "الإشعارات" ;
+"Search" = "البحث";
+"SavedNews" = "المحفوظات";
+"FavoriteSections" = "الأقسام المفضلة";
+"NoSearchWords" = "لم يتم ادخال اي كلمات للبحث";
+"NoSavedNews" = "لم يتم حفظ اي اخبار" ;
+"AllNewsAppearHere" = "جميع الأخبار و المقالات التي قمت بحفظها ستظهر هنا" ;
+"NoFavoriteNews" = "لم يتم إضافة أخبار في المفضله" ;
+"AllFavoriteNewsHere" = "جميع الأخبار و المقالات التي تفضلها ستظهر هنا" ;
+"NetWorkFailed" =  "خطأ بالاتصال بالشبكة";
+"NetWorkFailedDescription" =  "جهازك غير متصل بالإنترنت، يرجى التأكد من الربط بالشبكة";
+"NoSearchResult" = "لم يتم التوصل لنتائج";
+"trySearchAgain" = "لم نتمكن من العثور على ما تبحث عنه، حاول البحث بكلمات أخرى";
+"Cancel" = "الغاء";
+"RemoveFavoriteSection" = "تم حذف التصنيف، اضغط هنا للذهاب إلى المفضلة.";
+"AddFavoriteSaction" = "تمت إضافة التصنيف بنجاح، اضغط هنا للذهاب إلى مفضلتك";
+"copyRights" = "جمیع الحقوق محفوظة لمؤسسة بوابة العین الإخباریة للإعلام والدراسات";
+"More" = "المزيد";
+"RelatedNews" = "أخبار ذات صلة";
+"from2days" = "منذ يومين";
+"from2hours" = "من ساعتين" ;
+"from2min" = "من دقيقتين";
+"tryagain" = "اعد المحاولة";
+/* No comment provided by engineer. */
+"%d days ago" = "منذ %d أيام";
+
+/* No comment provided by engineer. */
+"%d hours ago" = "منذ %d ساعات";
+
+/* No comment provided by engineer. */
+"%d minutes ago" = "منذ %d دقائق";
+
+/* No comment provided by engineer. */
+"%d months ago" = "منذ %d أشهر";
+
+/* No comment provided by engineer. */
+"%d seconds ago" = "منذ %d ثوانٍ";
+
+/* No comment provided by engineer. */
+"%d weeks ago" = "منذ %d أسابيع";
+
+/* No comment provided by engineer. */
+"%d years ago" = "منذ %d سنوات";
+
+/* No comment provided by engineer. */
+"A minute ago" = "منذ دقيقة";
+
+/* No comment provided by engineer. */
+"An hour ago" = "منذ ساعة";
+
+/* No comment provided by engineer. */
+"Just now" = "حالًا";
+
+/* No comment provided by engineer. */
+"Last month" = "الشهر الماضي";
+
+/* No comment provided by engineer. */
+"Last week" = "الأسبوع الماضي";
+
+/* No comment provided by engineer. */
+"Last year" = "العام الماضي";
+
+/* No comment provided by engineer. */
+"Yesterday" = "أمس";
+
+/* No comment provided by engineer. */
+"1 year ago" = "منذ عام";
+
+/* No comment provided by engineer. */
+"1 month ago" = "منذ شهر";
+
+/* No comment provided by engineer. */
+"1 week ago" = "منذ أسبوع";
+
+/* No comment provided by engineer. */
+"1 day ago" = "منذ يوم";
+
+/* No comment provided by engineer. */
+"This morning" = "هذا الصباح";
+
+/* No comment provided by engineer. */
+"This afternoon" = "بعد ظهيرة اليوم";
+
+/* No comment provided by engineer. */
+"Today" = "اليوم";
+
+/* No comment provided by engineer. */
+"This week" = "هذا الأسبوع";
+
+/* No comment provided by engineer. */
+"This month" = "هذا الشهر";
+
+/* No comment provided by engineer. */
+"This year" = "هذا العام";

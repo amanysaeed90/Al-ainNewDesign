@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="helvetica-neue-lt-arabic-75-bold.ttf">
+            <string>HelveticaNeueLTArabic-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="WarningView" customModule="Al_Ain" customModuleProvider="target">
+            <connections>
+                <outlet property="DescriptionLbl" destination="Eoy-9s-KNs" id="609-J5-7lX"/>
+                <outlet property="HeaderLbl" destination="jR1-iu-wnU" id="N8G-UK-vsm"/>
+                <outlet property="tryagainbtn" destination="yA4-Vs-9lL" id="hZY-f7-dQM"/>
+                <outlet property="warinigImg" destination="FPS-N1-PGu" id="zA7-LU-NVI"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gpu-F9-CVl">
+                    <rect key="frame" x="0.0" y="192" width="375" height="283.5"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="FPS-N1-PGu">
+                            <rect key="frame" x="94" y="0.0" width="187.5" height="187.5"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="FPS-N1-PGu" secondAttribute="height" multiplier="1:1" id="hJN-GL-vVZ"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jR1-iu-wnU">
+                            <rect key="frame" x="187.5" y="202.5" width="0.0" height="0.0"/>
+                            <constraints>
+                                <constraint firstAttribute="height" relation="greaterThanOrEqual" id="plU-lg-Bhm"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="HelveticaNeueLTArabic-Bold" family="Helvetica Neue LT Arabic" pointSize="20"/>
+                            <color key="textColor" red="0.26274788379669189" green="0.26274141669273376" blue="0.26274269819259644" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Eoy-9s-KNs">
+                            <rect key="frame" x="15" y="207.5" width="345" height="0.0"/>
+                            <constraints>
+                                <constraint firstAttribute="height" relation="greaterThanOrEqual" id="bDn-DO-ApY"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="HelveticaNeueLTArabic-Bold" family="Helvetica Neue LT Arabic" pointSize="15"/>
+                            <color key="textColor" red="0.56863301992416382" green="0.56862038373947144" blue="0.56862282752990723" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yA4-Vs-9lL">
+                            <rect key="frame" x="145.5" y="222.5" width="84" height="46"/>
+                            <fontDescription key="fontDescription" name="HelveticaNeueLTArabic-Bold" family="Helvetica Neue LT Arabic" pointSize="18"/>
+                            <state key="normal" title="اعد المحاولة">
+                                <color key="titleColor" red="0.51487177610397339" green="0.7061118483543396" blue="0.69020050764083862" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </state>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="Eoy-9s-KNs" secondAttribute="trailing" constant="15" id="2eT-bO-eo5"/>
+                        <constraint firstAttribute="bottom" secondItem="yA4-Vs-9lL" secondAttribute="bottom" constant="15" id="8Xg-Ku-pQp"/>
+                        <constraint firstItem="Eoy-9s-KNs" firstAttribute="leading" secondItem="gpu-F9-CVl" secondAttribute="leading" constant="15" id="AKH-QS-lbk"/>
+                        <constraint firstItem="FPS-N1-PGu" firstAttribute="width" secondItem="gpu-F9-CVl" secondAttribute="width" multiplier="0.5" id="Agn-AJ-pHo"/>
+                        <constraint firstItem="yA4-Vs-9lL" firstAttribute="top" secondItem="Eoy-9s-KNs" secondAttribute="bottom" constant="15" id="Bjq-yx-0ub"/>
+                        <constraint firstItem="FPS-N1-PGu" firstAttribute="centerX" secondItem="gpu-F9-CVl" secondAttribute="centerX" id="C0O-us-U4R"/>
+                        <constraint firstItem="jR1-iu-wnU" firstAttribute="centerX" secondItem="FPS-N1-PGu" secondAttribute="centerX" id="FYi-7d-lzU"/>
+                        <constraint firstItem="FPS-N1-PGu" firstAttribute="top" secondItem="gpu-F9-CVl" secondAttribute="top" id="K1n-Rk-JI4"/>
+                        <constraint firstItem="Eoy-9s-KNs" firstAttribute="top" secondItem="jR1-iu-wnU" secondAttribute="bottom" constant="5" id="OsG-XI-vFs"/>
+                        <constraint firstItem="yA4-Vs-9lL" firstAttribute="centerX" secondItem="gpu-F9-CVl" secondAttribute="centerX" id="VNc-KM-qnK"/>
+                        <constraint firstItem="Eoy-9s-KNs" firstAttribute="centerX" secondItem="jR1-iu-wnU" secondAttribute="centerX" id="auh-gZ-dZ5"/>
+                        <constraint firstItem="jR1-iu-wnU" firstAttribute="top" secondItem="FPS-N1-PGu" secondAttribute="bottom" constant="15" id="fSe-1J-JuJ"/>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="245" id="qjp-T6-NF4"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="gpu-F9-CVl" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" id="3lC-vd-yMv"/>
+                <constraint firstItem="gpu-F9-CVl" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" id="7a2-NR-HNZ"/>
+                <constraint firstItem="gpu-F9-CVl" firstAttribute="centerY" secondItem="fnl-2z-Ty3" secondAttribute="centerY" id="ZjR-GY-oOT"/>
+            </constraints>
+            <point key="canvasLocation" x="102" y="-45"/>
+        </view>
+    </objects>
+</document>

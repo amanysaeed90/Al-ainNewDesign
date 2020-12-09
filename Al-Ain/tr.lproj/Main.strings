@@ -1,0 +1,258 @@
+
+/* Class = "UILabel"; text = "الموضوعات"; ObjectID = "0iJ-vq-e9K"; */
+"0iJ-vq-e9K.text" = "الموضوعات";
+
+/* Class = "UILabel"; text = "| 123 h"; ObjectID = "0tZ-XH-gff"; */
+"0tZ-XH-gff.text" = "| 123 h";
+
+/* Class = "UITabBarItem"; title = "الرئیسیة"; ObjectID = "1yE-s3-CFq"; */
+"1yE-s3-CFq.title" = "الرئیسیة";
+
+/* Class = "UITabBarItem"; title = "اخباري"; ObjectID = "2Nl-67-c6i"; */
+"2Nl-67-c6i.title" = "اخباري";
+
+/* Class = "UILabel"; text = "ا ا ا ا ا ا ا ا ا ا ا اا ا ا ا ا ا ا ا ا ا ا اا ا ا ا ا ا ا ا ا ا ا اا ا ا ا ا ا ا ا ا ا ا ا ا  ا ا ا ا ا ا ا ا ا ا اا ا ا ا ا ا ا ا ا ا ا اا ا ا ا ا ا ا ا ا ا ا اا ا ا ا ا ا ا ا ا ا ا اا ا ا ا ا ا ا ا ا ا ا ا"; ObjectID = "2P2-cI-Y8F"; */
+"2P2-cI-Y8F.text" = "ا ا ا ا ا ا ا ا ا ا ا اا ا ا ا ا ا ا ا ا ا ا اا ا ا ا ا ا ا ا ا ا ا اا ا ا ا ا ا ا ا ا ا ا ا ا  ا ا ا ا ا ا ا ا ا ا اا ا ا ا ا ا ا ا ا ا ا اا ا ا ا ا ا ا ا ا ا ا اا ا ا ا ا ا ا ا ا ا ا اا ا ا ا ا ا ا ا ا ا ا ا";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "2tq-QW-CNL"; */
+"2tq-QW-CNL.title" = " ";
+
+/* Class = "UILabel"; text = "| 123 h"; ObjectID = "36W-8e-rTm"; */
+"36W-8e-rTm.text" = "| 123 h";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "67m-dS-4CN"; */
+"67m-dS-4CN.title" = " ";
+
+/* Class = "UILabel"; text = "اماني"; ObjectID = "6w0-UX-gGJ"; */
+"6w0-UX-gGJ.text" = "اماني";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "70a-Od-PQU"; */
+"70a-Od-PQU.title" = " ";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "7Xn-n2-ueE"; */
+"7Xn-n2-ueE.title" = " ";
+
+/* Class = "UITabBarItem"; title = "الرئيسية"; ObjectID = "7hI-Ra-sHi"; */
+"7hI-Ra-sHi.title" = "الرئيسية";
+
+/* Class = "UILabel"; text = "| 123 h"; ObjectID = "7yz-sh-dqa"; */
+"7yz-sh-dqa.text" = "| 123 h";
+
+/* Class = "UILabel"; text = "kkk"; ObjectID = "8Tf-ig-4Yj"; */
+"8Tf-ig-4Yj.text" = "kkk";
+
+/* Class = "UIButton"; normalTitle = "اختیار الأقسام المفضلة"; ObjectID = "9eg-d8-S3r"; */
+"9eg-d8-S3r.normalTitle" = "اختیار الأقسام المفضلة";
+
+/* Class = "UILabel"; text = "الموضوعات"; ObjectID = "9s1-hh-FG8"; */
+"9s1-hh-FG8.text" = "الموضوعات";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "B9Y-Js-NHq"; */
+"B9Y-Js-NHq.title" = " ";
+
+/* Class = "UILabel"; text = "melad"; ObjectID = "DEI-5z-6Qr"; */
+"DEI-5z-6Qr.text" = "melad";
+
+/* Class = "UILabel"; text = "| 123 h"; ObjectID = "Djb-zo-BXs"; */
+"Djb-zo-BXs.text" = "| 123 h";
+
+/* Class = "UITabBarItem"; title = " فكر ورأي"; ObjectID = "E4t-rb-clt"; */
+"E4t-rb-clt.title" = " فكر ورأي";
+
+/* Class = "UILabel"; text = "melad"; ObjectID = "Fu1-4O-e1Q"; */
+"Fu1-4O-e1Q.text" = "melad";
+
+/* Class = "UILabel"; text = "لاتوجد اى صفحات او اقسام او هاشتاقات في مفضلتك الرجاء اضافة الهاشتقات المفضلة والاقسام والصفحات عبر تصفحك  والضغط على زر تابع(+)اثناء وجودك فى الصفحة المفضلة حتي تتمكن من متابعة جديد الاخبار "; ObjectID = "HYB-s9-oWJ"; */
+"HYB-s9-oWJ.text" = "لاتوجد اى صفحات او اقسام او هاشتاقات في مفضلتك الرجاء اضافة الهاشتقات المفضلة والاقسام والصفحات عبر تصفحك  والضغط على زر تابع(+)اثناء وجودك فى الصفحة المفضلة حتي تتمكن من متابعة جديد الاخبار ";
+
+/* Class = "UILabel"; text = "اماني"; ObjectID = "MYQ-5Q-Nmx"; */
+"MYQ-5Q-Nmx.text" = "اماني";
+
+/* Class = "UITabBarItem"; title = "الأقسام"; ObjectID = "OiJ-Vn-00Y"; */
+"OiJ-Vn-00Y.title" = "الأقسام";
+
+/* Class = "UITabBarItem"; title = "Item"; ObjectID = "PHO-Ux-MUQ"; */
+"PHO-Ux-MUQ.title" = "Item";
+
+/* Class = "UILabel"; text = "| 123 h"; ObjectID = "Ppm-Fr-2Jh"; */
+"Ppm-Fr-2Jh.text" = "| 123 h";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "QLF-GW-Tsr"; */
+"QLF-GW-Tsr.title" = " ";
+
+/* Class = "UILabel"; text = "| 123 h"; ObjectID = "QiP-md-0wD"; */
+"QiP-md-0wD.text" = "| 123 h";
+
+/* Class = "UILabel"; text = "الاسم"; ObjectID = "RUt-uf-nfh"; */
+"RUt-uf-nfh.text" = "الاسم";
+
+/* Class = "UITabBarItem"; title = "اخباري"; ObjectID = "RnA-cf-hoh"; */
+"RnA-cf-hoh.title" = "اخباري";
+
+/* Class = "UILabel"; text = "| 123 h"; ObjectID = "RwW-e4-bF6"; */
+"RwW-e4-bF6.text" = "| 123 h";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "SCb-Qk-pXg"; */
+"SCb-Qk-pXg.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "المفضلة"; ObjectID = "SeE-Ce-zSU"; */
+"SeE-Ce-zSU.text" = "المفضلة";
+
+/* Class = "UISegmentedControl"; Ub1-bl-jjB.segmentTitles[0] = "بالاقسام"; ObjectID = "Ub1-bl-jjB"; */
+"Ub1-bl-jjB.segmentTitles[0]" = "بالاقسام";
+
+/* Class = "UISegmentedControl"; Ub1-bl-jjB.segmentTitles[1] = "بالتوقيت"; ObjectID = "Ub1-bl-jjB"; */
+"Ub1-bl-jjB.segmentTitles[1]" = "بالتوقيت";
+
+/* Class = "UILabel"; text = "الإشعارات"; ObjectID = "UgY-Xo-cKi"; */
+"UgY-Xo-cKi.text" = "الإشعارات";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "VV6-XZ-Jrh"; */
+"VV6-XZ-Jrh.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "melad"; ObjectID = "W9C-9p-mPF"; */
+"W9C-9p-mPF.text" = "melad";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "WQ5-UZ-fTX"; */
+"WQ5-UZ-fTX.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "| 123 h"; ObjectID = "WzG-Za-9MY"; */
+"WzG-Za-9MY.text" = "| 123 h";
+
+/* Class = "UILabel"; text = "section"; ObjectID = "XTK-sQ-30w"; */
+"XTK-sQ-30w.text" = "section";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Xbh-wc-N4K"; */
+"Xbh-wc-N4K.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "XuH-C2-Fag"; */
+"XuH-C2-Fag.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "section"; ObjectID = "ZSe-TF-7il"; */
+"ZSe-TF-7il.text" = "section";
+
+/* Class = "UILabel"; text = "| 123 h"; ObjectID = "aEE-gf-Huv"; */
+"aEE-gf-Huv.text" = "| 123 h";
+
+/* Class = "UILabel"; text = "| 123 h"; ObjectID = "aOW-OW-Vfy"; */
+"aOW-OW-Vfy.text" = "| 123 h";
+
+/* Class = "UILabel"; text = "| 123 h"; ObjectID = "aj4-MQ-2xu"; */
+"aj4-MQ-2xu.text" = "| 123 h";
+
+/* Class = "UILabel"; text = "يييييي"; ObjectID = "c1V-tr-uVx"; */
+"c1V-tr-uVx.text" = "يييييي";
+
+/* Class = "UILabel"; text = " يي  يبيبي سيييي سيسيس   يييبيبيب بيبيبي بيبيببي  مخمخم "; ObjectID = "cDl-mi-y2m"; */
+"cDl-mi-y2m.text" = " يي  يبيبي سيييي سيسيس   يييبيبيب بيبيبي بيبيببي  مخمخم ";
+
+/* Class = "UITabBarItem"; title = "شاهد"; ObjectID = "dTX-e4-DYR"; */
+"dTX-e4-DYR.title" = "شاهد";
+
+/* Class = "UISegmentedControl"; dca-Uz-2D0.segmentTitles[0] = "بلدان"; ObjectID = "dca-Uz-2D0"; */
+"dca-Uz-2D0.segmentTitles[0]" = "بلدان";
+
+/* Class = "UISegmentedControl"; dca-Uz-2D0.segmentTitles[1] = "هاشتقات"; ObjectID = "dca-Uz-2D0"; */
+"dca-Uz-2D0.segmentTitles[1]" = "هاشتقات";
+
+/* Class = "UISegmentedControl"; dca-Uz-2D0.segmentTitles[2] = "صفحات"; ObjectID = "dca-Uz-2D0"; */
+"dca-Uz-2D0.segmentTitles[2]" = "صفحات";
+
+/* Class = "UISegmentedControl"; dca-Uz-2D0.segmentTitles[3] = "اقسام"; ObjectID = "dca-Uz-2D0"; */
+"dca-Uz-2D0.segmentTitles[3]" = "اقسام";
+
+/* Class = "UILabel"; text = "| 123 h"; ObjectID = "eQB-ok-1Ub"; */
+"eQB-ok-1Ub.text" = "| 123 h";
+
+/* Class = "UILabel"; text = "section"; ObjectID = "etG-be-oNh"; */
+"etG-be-oNh.text" = "section";
+
+/* Class = "UILabel"; text = "الكل"; ObjectID = "fjs-5L-OaF"; */
+"fjs-5L-OaF.text" = "الكل";
+
+/* Class = "UILabel"; text = "section"; ObjectID = "fwH-Pw-REz"; */
+"fwH-Pw-REz.text" = "section";
+
+/* Class = "UILabel"; text = "فثسف"; ObjectID = "g3q-li-3YG"; */
+"g3q-li-3YG.text" = "فثسف";
+
+/* Class = "UILabel"; text = "section"; ObjectID = "gXc-dH-Lzi"; */
+"gXc-dH-Lzi.text" = "section";
+
+/* Class = "UILabel"; text = "section"; ObjectID = "gZM-p7-wd7"; */
+"gZM-p7-wd7.text" = "section";
+
+/* Class = "UILabel"; text = "test"; ObjectID = "htE-oh-i8o"; */
+"htE-oh-i8o.text" = "test";
+
+/* Class = "UILabel"; text = "| 123 h"; ObjectID = "hyo-Kn-3VB"; */
+"hyo-Kn-3VB.text" = "| 123 h";
+
+/* Class = "UILabel"; text = "1"; ObjectID = "ig7-kS-Lj1"; */
+"ig7-kS-Lj1.text" = "1";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "jE7-4R-F7e"; */
+"jE7-4R-F7e.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = " يي  يبيبي سيييي سيسيس   يييبيبيب بيبيبي بيبيببrي  مخمخم  يي  يبيبي سيييي سيسيس   يييبيبيب بيبيبي بيبيببrي  مخمخم "; ObjectID = "kmB-4N-yDL"; */
+"kmB-4N-yDL.text" = " يي  يبيبي سيييي سيسيس   يييبيبيب بيبيبي بيبيببrي  مخمخم  يي  يبيبي سيييي سيسيس   يييبيبيب بيبيبي بيبيببrي  مخمخم ";
+
+/* Class = "UILabel"; text = ",mn"; ObjectID = "lSZ-RK-EYo"; */
+"lSZ-RK-EYo.text" = ",mn";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "lfF-ZH-Fla"; */
+"lfF-ZH-Fla.title" = " ";
+
+/* Class = "UILabel"; text = "section"; ObjectID = "lyY-d0-fk0"; */
+"lyY-d0-fk0.text" = "section";
+
+/* Class = "UILabel"; text = "عاجل"; ObjectID = "mBg-Vk-eop"; */
+"mBg-Vk-eop.text" = "عاجل";
+
+/* Class = "UILabel"; text = "الكل"; ObjectID = "mG2-Q6-fWH"; */
+"mG2-Q6-fWH.text" = "الكل";
+
+/* Class = "UILabel"; text = "section"; ObjectID = "mRe-0z-4d4"; */
+"mRe-0z-4d4.text" = "section";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "mTo-gx-G15"; */
+"mTo-gx-G15.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "ngA-DB-Ke1"; */
+"ngA-DB-Ke1.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "ا ا ا ا ا ا ا ا ا ا ا اا ا ا ا ا ا ا ا ا ا ا اا ا ا ا ا ا ا ا ا ا ا اا ا ا ا ا ا ا ا ا ا ا ا ا  ا ا ا ا ا ا ا ا ا ا اا ا ا ا ا ا ا ا ا ا ا اا ا ا ا ا ا ا ا ا ا ا اا ا ا ا ا ا ا ا ا ا ا اا ا ا ا ا ا ا ا ا ا ا ا"; ObjectID = "oaV-EF-eTR"; */
+"oaV-EF-eTR.text" = "ا ا ا ا ا ا ا ا ا ا ا اا ا ا ا ا ا ا ا ا ا ا اا ا ا ا ا ا ا ا ا ا ا اا ا ا ا ا ا ا ا ا ا ا ا ا  ا ا ا ا ا ا ا ا ا ا اا ا ا ا ا ا ا ا ا ا ا اا ا ا ا ا ا ا ا ا ا ا اا ا ا ا ا ا ا ا ا ا ا اا ا ا ا ا ا ا ا ا ا ا ا";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "qSc-D4-RQ6"; */
+"qSc-D4-RQ6.title" = " ";
+
+/* Class = "UILabel"; text = "section"; ObjectID = "rxG-wY-3gl"; */
+"rxG-wY-3gl.text" = "section";
+
+/* Class = "UISegmentedControl"; sYr-37-slm.segmentTitles[0] = "الأقسام المفضلة"; ObjectID = "sYr-37-slm"; */
+"sYr-37-slm.segmentTitles[0]" = "الأقسام المفضلة";
+
+/* Class = "UISegmentedControl"; sYr-37-slm.segmentTitles[1] = "المحفوظات"; ObjectID = "sYr-37-slm"; */
+"sYr-37-slm.segmentTitles[1]" = "المحفوظات";
+
+/* Class = "UILabel"; text = "section"; ObjectID = "sqi-dP-dGW"; */
+"sqi-dP-dGW.text" = "section";
+
+/* Class = "UILabel"; text = " يي  يبيبي سيييي سيسيس   يييبيبيب بيبيبي بيبيببrي  مخمخم  يي  يبيبي سيييي سيسيس   يييبيبيب بيبيبي بيبيببrي  مخمخم "; ObjectID = "vSX-jz-FnI"; */
+"vSX-jz-FnI.text" = " يي  يبيبي سيييي سيسيس   يييبيبيب بيبيبي بيبيببrي  مخمخم  يي  يبيبي سيييي سيسيس   يييبيبيب بيبيبي بيبيببrي  مخمخم ";
+
+/* Class = "UILabel"; text = "section"; ObjectID = "wLX-U2-W9K"; */
+"wLX-U2-W9K.text" = "section";
+
+/* Class = "UILabel"; text = "المفضلة"; ObjectID = "x5r-2u-C4a"; */
+"x5r-2u-C4a.text" = "المفضلة";
+
+/* Class = "UILabel"; text = "فثسف"; ObjectID = "xsz-F0-XMA"; */
+"xsz-F0-XMA.text" = "فثسف";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "ykV-Gd-Z1c"; */
+"ykV-Gd-Z1c.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "| 123 h"; ObjectID = "zDG-lj-dVT"; */
+"zDG-lj-dVT.text" = "| 123 h";

@@ -1,0 +1,134 @@
+/*
+  Localizable.strings
+  Created by Amany El hadary on 04/11/2020.
+  Copyright (c) 2020 Amany El hadary. All rights reserved.
+*/
+"tryagain" = "ድጋሚ ሞክር";
+"About" = "ስለ";
+"Opinion" = "አስተያየት";
+"Vedio" = "   ቪዲዮ   " ;
+"InfoGraph" =   "የመረጃ ሳጥን  ";
+"Photos" = "   ፎቶዎች   ";
+"Sections" = "አምዶች" ;
+"Hashtags" = "ሀሽታጎች";
+"Countries" = "ሀገራት";
+"Pages" = "ገጾች";
+"Home" = "መግቢያ";
+"HomeTab" = " የመግቢያ ማውጫ";
+"Corona" = "ኮሮና";
+"LatestNews" = " አዳዲስ ዜናዎች";
+"Trend" = "ወቅታዊ ";
+"ViewTabBar" = "የእይታ ማውጫ";
+"OpinionTabBar" = "የአስተያየት ማውጫ";
+"MyNewsTabBar" = "የዜና ማውጫ";
+"Notifications" = "ማንቂያዎች" ;
+"Search" = "ፍለጋ ";
+"SavedNews" = "የተመዘገቡ ዜናዎች ";
+"FavoriteSections" = "ተመራጭ አምዶች";
+"NoSearchWords" = "የሚፈለጉ ቃላቶች የሉም";
+"NoSavedNews" = "የተመዘገቡ ዜናዎች የሉም";
+"AllNewsAppearHere" = "ሁሉም ዜናዎች እዚህ ይታያሉ" ;
+"NoFavoriteNews" = "ተመራጭ ዜናዎች የሉም" ;
+"AllFavoriteNewsHere" = "ሁሉም ተመራጭ ዜናዎች እዚህ አሉ" ;
+"NetWorkFailed" =  "ኔትወርክ አይሰራም ";
+"NetWorkFailedDescription" = "ኔትወርክ አይሰራም የሚል መግለጫ";
+"NoSearchResult" = "የፍለጋ ውጤት የለም";
+"trySearchAgain" = "ፍለጋውን በድጋሚ ይሞክሩ";
+"Cancel" = "ሰርዝ";
+"RemoveFavoriteSection" = "ከተመራጭ አምድ አስወጣ";
+"AddFavoriteSaction" = "ተመራጭ አምድ አስገባ";
+"copyRights" = "የባለቤትነት መብቶች";
+"More" = "ተጨማሪ";
+"RelatedNews" = "ተያያዥ ዜናዎች";
+"from2days" = "منذ يومين";
+"from2hours" = "من ساعتين" ;
+"from2min" = "من دقيقتين";
+/* No comment provided by engineer. */
+"%d days ago" = "%d ቀናት በፊት";
+
+/* No comment provided by engineer. */
+"%d hours ago" = "%d ሰዓታት በፊት";
+
+/* No comment provided by engineer. */
+"%d minutes ago" = "%d ደቂቃዎች በፊት";
+
+/* No comment provided by engineer. */
+"%d months ago" = "%d ወሮች በፊት";
+
+/* No comment provided by engineer. */
+"%d seconds ago" = "%d ሰከንዶች በፊት";
+
+/* No comment provided by engineer. */
+"%d weeks ago" = "%d ሳምንታት በፊት";
+
+/* No comment provided by engineer. */
+"%d years ago" = "%d አመታት በፊት";
+
+/* No comment provided by engineer. */
+"A minute ago" = "አንድ ደቂቃ በፊት";
+
+/* No comment provided by engineer. */
+"An hour ago" = "አንድ ሰዓት በፊት";
+
+/* No comment provided by engineer. */
+"Just now" = "ልክ አሁን";
+
+/* No comment provided by engineer. */
+"Last month" = "ያለፈው ወር";
+
+/* No comment provided by engineer. */
+"Last week" = "ያለፈው ሳምንት";
+
+/* No comment provided by engineer. */
+"Last year" = "ያለፈው አመት";
+
+/* No comment provided by engineer. */
+"Yesterday" = "ትናንትና";
+
+/* No comment provided by engineer. */
+"1 year ago" = "አንድ አመት በፊት";
+
+/* No comment provided by engineer. */
+"1 month ago" = "አንድ ወር በፊት";
+
+/* No comment provided by engineer. */
+"1 week ago" = "አንድ ሳምንት በፊት";
+
+/* No comment provided by engineer. */
+"1 day ago" = "አንድ ቀን በፊት";
+
+/* No comment provided by engineer. */
+"1 hour ago" = "አንድ ሰዓት በፊት";
+
+/* No comment provided by engineer. */
+"1 minute ago" = "አንድ ደቂቃ በፊት";
+
+/* No comment provided by engineer. */
+"1 second ago" = "አንድ ሰከንድ በፊት";
+
+/* No comment provided by engineer. */
+"This morning" = "ዛሬ ጠዋት";
+
+/* No comment provided by engineer. */
+"This afternoon" = "ዛሬ ከሰዓት";
+
+/* No comment provided by engineer. */
+"Today" = "ዛሬ";
+
+/* No comment provided by engineer. */
+"This week" = "በዚህ ሳምንት";
+
+/* No comment provided by engineer. */
+"This month" = "በዚህ ወር";
+
+/* No comment provided by engineer. */
+"This year" = "በዚህ አመት";
+
+/* Short format for */
+"%dy" = "%dy"; // year
+"%dM" = "%dM"; // month
+"%dw" = "%dw"; // week
+"%dd" = "%dd"; // day
+"%dh" = "%dh"; // hour
+"%dm" = "%dm"; // minute
+"%ds" = "%ds"; // second

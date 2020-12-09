@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="NormalPostCell" rowHeight="100" id="wDR-uu-pXU" customClass="PostCell" customModule="Al_Ain" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="100"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="wDR-uu-pXU" id="pl4-MM-v5g">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="100"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view opaque="NO" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="exw-Qs-ECx">
+                        <rect key="frame" x="5" y="0.0" width="365" height="94"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ccQ-Aj-WUz">
+                                <rect key="frame" x="215" y="0.0" width="150" height="94"/>
+                                <color key="backgroundColor" red="0.7293388247" green="0.72946286199999999" blue="0.72932249309999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="Goc-WP-tSw"/>
+                                    <constraint firstAttribute="height" constant="94" id="iD3-Ra-lvV"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isWindlessable" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalCompressionResistancePriority="749" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nxd-xu-vs1">
+                                <rect key="frame" x="5" y="0.0" width="205" height="74"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <attributedString key="attributedText">
+                                    <fragment content=" ">
+                                        <attributes>
+                                            <color key="NSColor" systemColor="darkTextColor"/>
+                                            <font key="NSFont" size="15" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="right" lineBreakMode="wordWrapping" baseWritingDirection="rightToLeft" lineHeightMultiple="0.80000000000000004" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="يي">
+                                        <attributes>
+                                            <color key="NSColor" systemColor="darkTextColor"/>
+                                            <font key="NSFont" size="15" name="GeezaPro"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="right" lineBreakMode="wordWrapping" baseWritingDirection="rightToLeft" lineHeightMultiple="0.80000000000000004" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="  ">
+                                        <attributes>
+                                            <color key="NSColor" systemColor="darkTextColor"/>
+                                            <font key="NSFont" size="15" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="right" lineBreakMode="wordWrapping" baseWritingDirection="rightToLeft" lineHeightMultiple="0.80000000000000004" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="يبيبي">
+                                        <attributes>
+                                            <color key="NSColor" systemColor="darkTextColor"/>
+                                            <font key="NSFont" size="15" name="GeezaPro"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="right" lineBreakMode="wordWrapping" baseWritingDirection="rightToLeft" lineHeightMultiple="0.80000000000000004" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content=" ">
+                                        <attributes>
+                                            <color key="NSColor" systemColor="darkTextColor"/>
+                                            <font key="NSFont" size="15" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="right" lineBreakMode="wordWrapping" baseWritingDirection="rightToLeft" lineHeightMultiple="0.80000000000000004" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="سيييي">
+                                        <attributes>
+                                            <color key="NSColor" systemColor="darkTextColor"/>
+                                            <font key="NSFont" size="15" name="GeezaPro"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="right" lineBreakMode="wordWrapping" baseWritingDirection="rightToLeft" lineHeightMultiple="0.80000000000000004" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content=" ">
+                                        <attributes>
+                                            <color key="NSColor" systemColor="darkTextColor"/>
+                                            <font key="NSFont" size="15" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="right" lineBreakMode="wordWrapping" baseWritingDirection="rightToLeft" lineHeightMultiple="0.80000000000000004" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="سيسيس">
+                                        <attributes>
+                                            <color key="NSColor" systemColor="darkTextColor"/>
+                                            <font key="NSFont" size="15" name="GeezaPro"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="right" lineBreakMode="wordWrapping" baseWritingDirection="rightToLeft" lineHeightMultiple="0.80000000000000004" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="   ">
+                                        <attributes>
+                                            <color key="NSColor" systemColor="darkTextColor"/>
+                                            <font key="NSFont" size="15" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="right" lineBreakMode="wordWrapping" baseWritingDirection="rightToLeft" lineHeightMultiple="0.80000000000000004" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="يييبيبيب">
+                                        <attributes>
+                                            <color key="NSColor" systemColor="darkTextColor"/>
+                                            <font key="NSFont" size="15" name="GeezaPro"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="right" lineBreakMode="wordWrapping" baseWritingDirection="rightToLeft" lineHeightMultiple="0.80000000000000004" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content=" ">
+                                        <attributes>
+                                            <color key="NSColor" systemColor="darkTextColor"/>
+                                            <font key="NSFont" size="15" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="right" lineBreakMode="wordWrapping" baseWritingDirection="rightToLeft" lineHeightMultiple="0.80000000000000004" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="بيبيبي">
+                                        <attributes>
+                                            <color key="NSColor" systemColor="darkTextColor"/>
+                                            <font key="NSFont" size="15" name="GeezaPro"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="right" lineBreakMode="wordWrapping" baseWritingDirection="rightToLeft" lineHeightMultiple="0.80000000000000004" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content=" ">
+                                        <attributes>
+                                            <color key="NSColor" systemColor="darkTextColor"/>
+                                            <font key="NSFont" size="15" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="right" lineBreakMode="wordWrapping" baseWritingDirection="rightToLeft" lineHeightMultiple="0.80000000000000004" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="بيبيببي">
+                                        <attributes>
+                                            <color key="NSColor" systemColor="darkTextColor"/>
+                                            <font key="NSFont" size="15" name="GeezaPro"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="right" lineBreakMode="wordWrapping" baseWritingDirection="rightToLeft" lineHeightMultiple="0.80000000000000004" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="  ">
+                                        <attributes>
+                                            <color key="NSColor" systemColor="darkTextColor"/>
+                                            <font key="NSFont" size="15" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="right" lineBreakMode="wordWrapping" baseWritingDirection="rightToLeft" lineHeightMultiple="0.80000000000000004" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="مخمخم">
+                                        <attributes>
+                                            <color key="NSColor" systemColor="darkTextColor"/>
+                                            <font key="NSFont" size="15" name="GeezaPro"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="right" lineBreakMode="wordWrapping" baseWritingDirection="rightToLeft" lineHeightMultiple="0.80000000000000004" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content=" ">
+                                        <attributes>
+                                            <color key="NSColor" systemColor="darkTextColor"/>
+                                            <font key="NSFont" size="15" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="right" lineBreakMode="wordWrapping" baseWritingDirection="rightToLeft" lineHeightMultiple="0.80000000000000004" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isWindlessable" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" tag="2" contentMode="left" text="section" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RZw-s1-wG9" userLabel="section">
+                                <rect key="frame" x="123" y="76.5" width="42.5" height="15.5"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="13"/>
+                                <color key="textColor" red="0.92468839879999998" green="0.4162537456" blue="0.18045619130000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" tag="3" contentMode="left" verticalHuggingPriority="249" verticalCompressionResistancePriority="749" text="| 123 h" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ec3-g6-rnW" userLabel="time">
+                                <rect key="frame" x="170.5" y="76.5" width="39.5" height="15.5"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="13"/>
+                                <color key="textColor" red="0.58425426479999998" green="0.58435541390000001" blue="0.584240973" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="RZw-s1-wG9" firstAttribute="top" secondItem="Ec3-g6-rnW" secondAttribute="top" id="25E-wF-DD5"/>
+                            <constraint firstItem="Nxd-xu-vs1" firstAttribute="trailing" secondItem="ccQ-Aj-WUz" secondAttribute="leading" priority="999" constant="-5" id="4go-ov-cIi"/>
+                            <constraint firstItem="RZw-s1-wG9" firstAttribute="trailing" secondItem="Ec3-g6-rnW" secondAttribute="leading" constant="-5" id="5tO-fC-fBq"/>
+                            <constraint firstItem="ccQ-Aj-WUz" firstAttribute="top" secondItem="exw-Qs-ECx" secondAttribute="top" id="ANK-h6-qaU"/>
+                            <constraint firstItem="Nxd-xu-vs1" firstAttribute="leading" secondItem="exw-Qs-ECx" secondAttribute="leading" constant="5" id="Pc0-zy-2en"/>
+                            <constraint firstItem="ccQ-Aj-WUz" firstAttribute="trailing" secondItem="exw-Qs-ECx" secondAttribute="trailing" id="ZGj-w8-Vuo"/>
+                            <constraint firstItem="Ec3-g6-rnW" firstAttribute="trailing" secondItem="ccQ-Aj-WUz" secondAttribute="leading" constant="-5" id="Zqy-1c-frk"/>
+                            <constraint firstItem="Ec3-g6-rnW" firstAttribute="bottom" secondItem="exw-Qs-ECx" secondAttribute="bottom" constant="-2" id="bvV-h6-ezm"/>
+                            <constraint firstItem="Nxd-xu-vs1" firstAttribute="bottom" secondItem="exw-Qs-ECx" secondAttribute="bottom" constant="-20" id="c1K-2G-3Ha"/>
+                            <constraint firstAttribute="height" constant="94" id="fQr-PC-nK9"/>
+                            <constraint firstItem="Nxd-xu-vs1" firstAttribute="top" secondItem="exw-Qs-ECx" secondAttribute="top" id="me3-JJ-as3"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" red="0.90196078430000004" green="0.90196078430000004" blue="0.90196078430000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="exw-Qs-ECx" secondAttribute="trailing" constant="5" id="VWt-N6-gHi"/>
+                    <constraint firstItem="exw-Qs-ECx" firstAttribute="top" secondItem="pl4-MM-v5g" secondAttribute="top" id="ikm-su-4zY"/>
+                    <constraint firstItem="exw-Qs-ECx" firstAttribute="leading" secondItem="pl4-MM-v5g" secondAttribute="leading" constant="5" id="kqh-aP-Cqc"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" red="0.90187174079999999" green="0.9020231366" blue="0.90185183290000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="boolean" keyPath="isWindlessable" value="YES"/>
+            </userDefinedRuntimeAttributes>
+            <connections>
+                <outlet property="photo" destination="ccQ-Aj-WUz" id="XKY-YS-asO"/>
+                <outlet property="sectionTitle" destination="RZw-s1-wG9" id="cOm-qD-ph7"/>
+                <outlet property="time" destination="Ec3-g6-rnW" id="Z2D-8b-3MH"/>
+                <outlet property="title" destination="Nxd-xu-vs1" id="hxE-XI-fz1"/>
+            </connections>
+            <point key="canvasLocation" x="254" y="40"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <systemColor name="darkTextColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

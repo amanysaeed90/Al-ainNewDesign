@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="helvetica-neue-lt-arabic-75-bold.ttf">
+            <string>HelveticaNeueLTArabic-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="FavCategorySectionCell" id="x1R-W6-qNw" userLabel="FavCategorySectionCell" customClass="FavCategorySectionCell" customModule="Al_Ain" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="90" height="127"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="90" height="127"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="oTx-6a-hRF" customClass="RoundedCornerImage" customModule="Al_Ain" customModuleProvider="target">
+                        <rect key="frame" x="15" y="15" width="60" height="60"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="60" id="75c-vx-9SK"/>
+                            <constraint firstAttribute="height" constant="60" id="aeF-XE-6uo"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="30"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </imageView>
+                    <button hidden="YES" opaque="NO" alpha="0.0" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Oea-Fw-xmh">
+                        <rect key="frame" x="50" y="0.0" width="40" height="40"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="40" id="6tv-ml-TiM"/>
+                            <constraint firstAttribute="height" constant="40" id="DkM-qb-cn0"/>
+                        </constraints>
+                        <state key="normal" image="star-shape-favorite-White"/>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="6" translatesAutoresizingMaskIntoConstraints="NO" id="1JI-w3-MkU">
+                        <rect key="frame" x="0.0" y="90" width="90" height="22"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="22" id="eJX-xj-q0S"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="HelveticaNeueLTArabic-Bold" family="Helvetica Neue LT Arabic" pointSize="12"/>
+                        <color key="textColor" red="0.43922001123428345" green="0.43920996785163879" blue="0.43921196460723877" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="eVm-Df-hKA"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="oTx-6a-hRF" firstAttribute="top" secondItem="x1R-W6-qNw" secondAttribute="top" constant="15" id="2Vq-lv-iq0"/>
+                <constraint firstAttribute="trailing" secondItem="Oea-Fw-xmh" secondAttribute="trailing" id="50f-yR-39e"/>
+                <constraint firstItem="1JI-w3-MkU" firstAttribute="top" secondItem="oTx-6a-hRF" secondAttribute="bottom" constant="15" id="73B-Cz-oHO"/>
+                <constraint firstItem="eVm-Df-hKA" firstAttribute="bottom" secondItem="1JI-w3-MkU" secondAttribute="bottom" constant="15" id="89o-qg-SsQ"/>
+                <constraint firstItem="Oea-Fw-xmh" firstAttribute="top" secondItem="x1R-W6-qNw" secondAttribute="top" id="TMj-Tj-thp"/>
+                <constraint firstAttribute="trailing" secondItem="oTx-6a-hRF" secondAttribute="trailing" constant="15" id="W3O-Hv-Ejj"/>
+                <constraint firstItem="oTx-6a-hRF" firstAttribute="leading" secondItem="x1R-W6-qNw" secondAttribute="leading" constant="15" id="ee5-5i-WtK"/>
+                <constraint firstItem="eVm-Df-hKA" firstAttribute="trailing" secondItem="1JI-w3-MkU" secondAttribute="trailing" id="iaT-zN-sd7"/>
+                <constraint firstItem="1JI-w3-MkU" firstAttribute="leading" secondItem="eVm-Df-hKA" secondAttribute="leading" id="nIs-Si-wOH"/>
+            </constraints>
+            <size key="customSize" width="272" height="266"/>
+            <connections>
+                <outlet property="SctionImage" destination="oTx-6a-hRF" id="TRZ-JJ-E5A"/>
+                <outlet property="sectionNameLbl" destination="1JI-w3-MkU" id="UKJ-3d-cG2"/>
+            </connections>
+            <point key="canvasLocation" x="-513" y="-145"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="star-shape-favorite-White" width="21" height="20"/>
+    </resources>
+</document>

@@ -1,0 +1,44 @@
+/*
+  Localizable.strings
+  Created by Amany El hadary on 04/11/2020.
+  Copyright (c) 2020 Amany El hadary. All rights reserved.
+*/
+
+"About" = "About";
+"Opinion" = "Opinion";
+"Vedio" = "  Vedio  " ;
+"InfoGraph" = "  InfoGraph  ";
+"Photos" = "  Photos  ";
+"Sections" = "Sections" ;
+"Hashtags" = "Hashtags";
+"Countries" = "Countries";
+"Pages" = "Pages";
+"Home" = "Home";
+"HomeTab" = " HomeTab";
+"Corona" = "Corona";
+"LatestNews" = " LatestNews";
+"Trend" = "Trend ";
+"ViewTabBar" = "ViewTabBar";
+"OpinionTabBar" = "OpinionTabBar";
+"MyNewsTabBar" = "MyNewsTabBar";
+"Notifications" = "Notifications" ;
+"Search" = "Search";
+"SavedNews" = "SavedNews";
+"FavoriteSections" = "الأقسامFavoriteSections";
+"NoSearchWords" = "NoSearchWordsلم يتم ادخال اي كلمات للبحث";
+"NoSavedNews" = "لم يتم حفظ اي اخباNoSavedNews" ;
+"AllNewsAppearHere" = "جميع الأخبار و المقالات التي قمAllNewsAppearHereت بحفظها ستظهر هنا" ;
+"NoFavoriteNews" = "لم يتم إضافة أخبار في المفضله" ;
+"AllFavoriteNewsHere" = "جميع الأخبار و المقالات التي تفضلها NoFavoriteNews هنا" ;
+"NetWorkFailed" =  "خطأ بالاتصال NetWorkFailed";
+"NetWorkFailedDescription" =  "جهازك غير متصل بالإنترنت، يرجى التأكد من الربط بالشبكةNetWorkFailedDescription";
+"NoSearchResult" = "NoSearchResultلم يتم التوصل لنتائج";
+"trySearchAgain" = "trySearchAgainلم نتمكن من العثور على ما تبحث عنه، حاول البحث بكلمات أخرى";
+"Cancel" = "الغاءCancel";
+"RemoveFavoriteSection" = "RemoveFavoriteSectionتم حذف التصنيف، اضغط هنا للذهاب إلى المفضلة.";
+"AddFavoriteSaction" = "تمت إضافة التصنيف بنجاح، اضغط هنا للذهاب إلى مفضلتكAddFavoriteSaction";
+"copyRights" = "جمیع الحقوق محفوظة لمؤسسة بوابة العین الإخباریة للإعلام والدراساcopyRightsت";
+"from2days" = "منذ يومين";
+"from2hours" = "من ساعتين" ;
+"from2min" = "من دقيقتين";
+"tryagain" = "tryagain";

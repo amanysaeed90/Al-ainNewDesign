@@ -1,0 +1,318 @@
+PODS:
+  - Alamofire (4.5.1)
+  - AlamofireObjectMapper (5.0.0):
+    - Alamofire (~> 4.1)
+    - ObjectMapper (~> 3.0)
+  - AlgoliaSearch-Client-Swift (4.8.1)
+  - Bolts (1.8.4):
+    - Bolts/AppLinks (= 1.8.4)
+    - Bolts/Tasks (= 1.8.4)
+  - Bolts/AppLinks (1.8.4):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.8.4)
+  - CHIPageControl (0.1.8):
+    - CHIPageControl/Aji (= 0.1.8)
+    - CHIPageControl/Aleppo (= 0.1.8)
+    - CHIPageControl/Chimayo (= 0.1.8)
+    - CHIPageControl/Fresno (= 0.1.8)
+    - CHIPageControl/Jalapeno (= 0.1.8)
+    - CHIPageControl/Jaloro (= 0.1.8)
+    - CHIPageControl/Paprika (= 0.1.8)
+    - CHIPageControl/Puya (= 0.1.8)
+  - CHIPageControl/Aji (0.1.8)
+  - CHIPageControl/Aleppo (0.1.8)
+  - CHIPageControl/Chimayo (0.1.8)
+  - CHIPageControl/Fresno (0.1.8)
+  - CHIPageControl/Jalapeno (0.1.8)
+  - CHIPageControl/Jaloro (0.1.8)
+  - CHIPageControl/Paprika (0.1.8)
+  - CHIPageControl/Puya (0.1.8)
+  - Crashlytics (3.9.0):
+    - Fabric (~> 1.7.0)
+  - DrawerMenu (1.0.1)
+  - DropDown (2.3.13)
+  - ESPullToRefresh (2.7)
+  - Fabric (1.7.0)
+  - FacebookCore (0.2.0):
+    - Bolts (~> 1.8)
+    - FBSDKCoreKit (~> 4.15)
+  - FacebookShare (0.2.0):
+    - Bolts (~> 1.8)
+    - FacebookCore (~> 0.2)
+    - FBSDKCoreKit (~> 4.21)
+    - FBSDKShareKit (~> 4.21)
+  - FaveButton (3.2.0)
+  - FBSDKCoreKit (4.27.0):
+    - Bolts (~> 1.7)
+  - FBSDKShareKit (4.29.0):
+    - FBSDKCoreKit
+  - Firebase/Core (4.1.1):
+    - FirebaseAnalytics (= 4.0.3)
+    - FirebaseCore (= 4.0.6)
+  - Firebase/Messaging (4.1.1):
+    - Firebase/Core
+    - FirebaseMessaging (= 2.0.2)
+  - Firebase/RemoteConfig (4.1.1):
+    - Firebase/Core
+    - FirebaseRemoteConfig (= 2.0.2)
+  - FirebaseAnalytics (4.0.3):
+    - FirebaseCore (~> 4.0)
+    - FirebaseInstanceID (~> 2.0)
+    - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
+    - nanopb (~> 0.3)
+  - FirebaseCore (4.0.6):
+    - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
+    - nanopb (~> 0.3)
+  - FirebaseInstanceID (2.0.2):
+    - FirebaseCore (~> 4.0)
+  - FirebaseMessaging (2.0.2):
+    - FirebaseAnalytics (~> 4.0)
+    - FirebaseCore (~> 4.0)
+    - FirebaseInstanceID (~> 2.0)
+    - GoogleToolboxForMac/Logger (~> 2.1)
+    - Protobuf (~> 3.1)
+  - FirebaseRemoteConfig (2.0.2):
+    - FirebaseAnalytics (~> 4.0)
+    - FirebaseInstanceID (~> 2.0)
+    - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
+    - Protobuf (~> 3.1)
+  - FittedSheets (1.0.0)
+  - FontAwesome.swift (1.2.0)
+  - GoogleToolboxForMac/Defines (2.1.1)
+  - GoogleToolboxForMac/Logger (2.1.1):
+    - GoogleToolboxForMac/Defines (= 2.1.1)
+  - "GoogleToolboxForMac/NSData+zlib (2.1.1)":
+    - GoogleToolboxForMac/Defines (= 2.1.1)
+  - InstantSearch-Core-Swift (2.0.0):
+    - AlgoliaSearch-Client-Swift (~> 4.0)
+  - Kingfisher (4.8.0)
+  - ListPlaceholder (1.4)
+  - LoadingShimmer (1.0.2)
+  - Localize-Swift (3.2.0):
+    - Localize-Swift/LocalizeSwiftCore (= 3.2.0)
+    - Localize-Swift/UIKit (= 3.2.0)
+  - Localize-Swift/LocalizeSwiftCore (3.2.0)
+  - Localize-Swift/UIKit (3.2.0):
+    - Localize-Swift/LocalizeSwiftCore
+  - LUExpandableTableView (2.1.0)
+  - MSPeekCollectionViewDelegateImplementation (1.3.0)
+  - nanopb (0.3.8):
+    - nanopb/decode (= 0.3.8)
+    - nanopb/encode (= 0.3.8)
+  - nanopb/decode (0.3.8)
+  - nanopb/encode (0.3.8)
+  - ObjectMapper (3.3.0)
+  - "ObjectMapper+Realm (0.6)":
+    - ObjectMapper
+    - RealmSwift
+  - ObjectMapperAdditions/Core (4.2.1):
+    - ObjectMapper
+  - ObjectMapperAdditions/Realm (4.2.1):
+    - ObjectMapper
+    - ObjectMapperAdditions/Core
+    - RealmSwift
+  - Pageboy (3.6.2)
+  - ParallaxHeader (1.0.6)
+  - Protobuf (3.4.0)
+  - PureLayout (3.0.2)
+  - Realm (3.18.0):
+    - Realm/Headers (= 3.18.0)
+  - Realm/Headers (3.18.0)
+  - RealmSwift (3.18.0):
+    - Realm (= 3.18.0)
+  - SDWebImage (4.4.1):
+    - SDWebImage/Core (= 4.4.1)
+  - SDWebImage/Core (4.4.1)
+  - SideMenu (5.0.3)
+  - Siren (5.1.1)
+  - SkeletonView (1.8.1)
+  - SKPhotoBrowser (4.1.1)
+  - SwiftColor (0.4.0)
+  - SwiftOverlays (3.0.0)
+  - SwiftSVG (2.3.0)
+  - SwiftyGif (5.1.1)
+  - Tabman (2.9.1):
+    - Pageboy (~> 3.6.0)
+  - Toast-Swift (4.0.0)
+  - "UIView+Shake (1.4.0)"
+  - Windless (0.1.5)
+  - YouTubePlayer (0.4.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.5.1)
+  - AlamofireObjectMapper
+  - AlgoliaSearch-Client-Swift
+  - CHIPageControl
+  - Crashlytics
+  - DrawerMenu
+  - DropDown
+  - ESPullToRefresh
+  - Fabric
+  - FacebookCore
+  - FacebookShare (from `https://github.com/1amageek/facebook-sdk-swift`)
+  - FaveButton
+  - Firebase/Core
+  - Firebase/Messaging
+  - Firebase/RemoteConfig
+  - FittedSheets
+  - FontAwesome.swift
+  - InstantSearch-Core-Swift
+  - Kingfisher
+  - ListPlaceholder
+  - LoadingShimmer
+  - Localize-Swift
+  - LUExpandableTableView
+  - MSPeekCollectionViewDelegateImplementation
+  - "ObjectMapper+Realm"
+  - ObjectMapperAdditions/Core
+  - ObjectMapperAdditions/Realm
+  - ObjectMapperAdditions/Realm (~> 4.1)
+  - Pageboy (from `https://github.com/MerrickSapsford/Pageboy.git`)
+  - ParallaxHeader
+  - PureLayout
+  - RealmSwift (~> 3.18.0)
+  - SDWebImage
+  - SideMenu
+  - Siren
+  - SkeletonView
+  - SKPhotoBrowser
+  - SwiftColor
+  - SwiftOverlays
+  - SwiftSVG (~> 2.0)
+  - SwiftyGif
+  - Tabman
+  - Toast-Swift (~> 4.0.0)
+  - "UIView+Shake"
+  - Windless (~> 0.1.5)
+  - YouTubePlayer
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - AlamofireObjectMapper
+    - AlgoliaSearch-Client-Swift
+    - Bolts
+    - CHIPageControl
+    - Crashlytics
+    - DrawerMenu
+    - DropDown
+    - ESPullToRefresh
+    - Fabric
+    - FacebookCore
+    - FaveButton
+    - FBSDKCoreKit
+    - FBSDKShareKit
+    - Firebase
+    - FirebaseAnalytics
+    - FirebaseCore
+    - FirebaseInstanceID
+    - FirebaseMessaging
+    - FirebaseRemoteConfig
+    - FittedSheets
+    - FontAwesome.swift
+    - GoogleToolboxForMac
+    - InstantSearch-Core-Swift
+    - Kingfisher
+    - ListPlaceholder
+    - LoadingShimmer
+    - Localize-Swift
+    - LUExpandableTableView
+    - MSPeekCollectionViewDelegateImplementation
+    - nanopb
+    - ObjectMapper
+    - "ObjectMapper+Realm"
+    - ObjectMapperAdditions
+    - ParallaxHeader
+    - Protobuf
+    - PureLayout
+    - Realm
+    - RealmSwift
+    - SDWebImage
+    - SideMenu
+    - Siren
+    - SkeletonView
+    - SKPhotoBrowser
+    - SwiftColor
+    - SwiftOverlays
+    - SwiftSVG
+    - SwiftyGif
+    - Tabman
+    - Toast-Swift
+    - "UIView+Shake"
+    - Windless
+    - YouTubePlayer
+
+EXTERNAL SOURCES:
+  FacebookShare:
+    :git: https://github.com/1amageek/facebook-sdk-swift
+  Pageboy:
+    :git: https://github.com/MerrickSapsford/Pageboy.git
+
+CHECKOUT OPTIONS:
+  FacebookShare:
+    :commit: 3ac76c770e9849285c380f380309d866911d2e93
+    :git: https://github.com/1amageek/facebook-sdk-swift
+  Pageboy:
+    :commit: 12fbea300affe0ca3afb01bd04e8e41987b7d58a
+    :git: https://github.com/MerrickSapsford/Pageboy.git
+
+SPEC CHECKSUMS:
+  Alamofire: 2d95912bf4c34f164fdfc335872e8c312acaea4a
+  AlamofireObjectMapper: 5fafc816351cbbc0d486611aaeba7461c0cbad49
+  AlgoliaSearch-Client-Swift: 5bdfbc8727f203773245e2410edd7a9c8e831637
+  Bolts: 8a7995239dbe724f9cba2248b766d48b7ebdd322
+  CHIPageControl: 76b35c8309d8dd155e869c109cc6ffc0aaa465ff
+  Crashlytics: f501748010b0f5526696e92497c69dc85f41463c
+  DrawerMenu: f6ca91901e2b21086e3c19bcca278d3d3127e85f
+  DropDown: 8a2116376c1981888557f72ec2ffc9a5e0e456ec
+  ESPullToRefresh: 119e2710b82b75536aab2bbe4883ba119fca35c8
+  Fabric: 034439019f3eb7bde392a2bc6d80097031458580
+  FacebookCore: 2cb3f0fbff218e9d3119cec84bae983b232412de
+  FacebookShare: d086f7a4610bbbca9cec5e774de450a9b3e1a20b
+  FaveButton: c818ab3d04d22a7615e93f08c7b35932acb3f735
+  FBSDKCoreKit: ebc6c5f5b3f0e72396041050e2266781a38ac587
+  FBSDKShareKit: 18a2cd118aef11dd657fe7e8b64bae5c719088b2
+  Firebase: 052c0de688fc87b414996eea13e223dd9fee3fa2
+  FirebaseAnalytics: 76f754d37ca5b04f36856729b6af3ca0152d1069
+  FirebaseCore: 28def3c643989c97ea5a69ea5000f5fa9902b9fd
+  FirebaseInstanceID: c4c7fca62c7b7330caee5da04f19a37ea37bb1c1
+  FirebaseMessaging: 85af6c27188538b3a6f7dfd0b3b0596358cb0c39
+  FirebaseRemoteConfig: 5b3e3301ef2f237b1b588e8ef3211b5a22e9e15d
+  FittedSheets: 15ee09759706a1539b08c4ae9752b035d67d3c0e
+  FontAwesome.swift: 60063e3f19ba4801155d4b0f2334ab7585763ab3
+  GoogleToolboxForMac: 8e329f1b599f2512c6b10676d45736bcc2cbbeb0
+  InstantSearch-Core-Swift: 456199cd7887c9d66d11668a12d899235a61b9d4
+  Kingfisher: 976d828df2b24834c6a3f2fc4d82cdbd26552be1
+  ListPlaceholder: 08ddaddf67520a20fc52cf37160fb56aa64d071d
+  LoadingShimmer: 930cfb5e2f3cd65b964fd1095e22a8c470e58633
+  Localize-Swift: 6f4475136bdb0d7b2882ea3d4ea919d70142b232
+  LUExpandableTableView: b4896516a813f13e49c2c1b319775fdddf916b9e
+  MSPeekCollectionViewDelegateImplementation: 09fdbcd804848033804ee66ce93ac9a0ebba8262
+  nanopb: 5601e6bca2dbf1ed831b519092ec110f66982ca3
+  ObjectMapper: b612bf8c8e99c4dc0bb6013a51f7c27966ed5da9
+  "ObjectMapper+Realm": 4cf44ed3202a73f08594e21e13eb3f8aa9b5a664
+  ObjectMapperAdditions: e11586bce98cf1090a36c24d4628ae5720a95d85
+  Pageboy: cf121b9dd48c63f3f281b2a9ec93d02e0f23879b
+  ParallaxHeader: 18ef35dfee4e565e2ef8b8d21c16d856ab1f424a
+  Protobuf: 03eef2ee0b674770735cf79d9c4d3659cf6908e8
+  PureLayout: 4d550abe49a94f24c2808b9b95db9131685fe4cd
+  Realm: 7b3d04740facf45e958a514b466a32b04f1113d6
+  RealmSwift: c817b5f374668cf08f649afb05f55d92a787649c
+  SDWebImage: 47e9b5b925cbce75946c23f0c42dd19464189af4
+  SideMenu: 1dcaabce84538c53325c287f7fe62999379a641c
+  Siren: c4626b324fc285903e953080bcb788334e436056
+  SkeletonView: 9e4db6c1478bce9da695109dd0972bff7b6efe65
+  SKPhotoBrowser: aa02de50f56d80fac23f543e40847af6b360e4b3
+  SwiftColor: c240d8cb2e1a29d731ae8deca8739eac6b9c56bd
+  SwiftOverlays: 4cdd9e4f5c7817fb6348882059eb697e11685fad
+  SwiftSVG: a864db6198fbddfd377f8169849580df18512e67
+  SwiftyGif: f7702483db93586a41f04f4927cd682852a2fa10
+  Tabman: 085d89c65be9e883629bdaf5b1453a6397e57846
+  Toast-Swift: 594b5c5e5129f15438e410207e43287f027b3c00
+  "UIView+Shake": 055ad67721de1f74d29c0a1d464697e505dfc62f
+  Windless: c6b7d63ac3a0c7e6b241e316650d4605abf71894
+  YouTubePlayer: 028451f6772f372d4759866db99824c676ac1473
+
+PODFILE CHECKSUM: 7c89f3c352e8cb46fa665798cec8608def33a77d
+
+COCOAPODS: 1.10.0

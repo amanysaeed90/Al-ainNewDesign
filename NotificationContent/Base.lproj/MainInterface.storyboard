@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="M4Y-Lb-cyx">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="DroidArabicKufi_Bold.ttf">
+            <string>DroidArabicKufi-Bold</string>
+        </array>
+        <array key="DroidArabicNaskh.ttf">
+            <string>DroidArabicNaskh</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Notification View Controller-->
+        <scene sceneID="cwh-vc-ff4">
+            <objects>
+                <viewController id="M4Y-Lb-cyx" userLabel="Notification View Controller" customClass="NotificationViewController" customModule="NotificationContent" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Ft6-oW-KC0"/>
+                        <viewControllerLayoutGuide type="bottom" id="FKl-LY-JtV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" simulatedAppContext="notificationCenter" id="S3S-Oj-5AN">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="300"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="xhx-wk-ezR">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="219"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sU8-kp-Zib">
+                                <rect key="frame" x="16" y="219" width="288" height="29"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="29" id="jKx-ch-m2w"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="DroidArabicKufi-Bold" family="Droid Arabic Kufi" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J2p-f5-rwD">
+                                <rect key="frame" x="16" y="248" width="288" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="1zD-e8-UoH"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="DroidArabicNaskh" family="Droid Arabic Naskh" pointSize="16"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="J2p-f5-rwD" firstAttribute="top" secondItem="sU8-kp-Zib" secondAttribute="bottom" id="0EI-Rw-4UF"/>
+                            <constraint firstItem="xhx-wk-ezR" firstAttribute="leading" secondItem="S3S-Oj-5AN" secondAttribute="leading" id="0XC-7O-ZD6"/>
+                            <constraint firstItem="xhx-wk-ezR" firstAttribute="top" secondItem="Ft6-oW-KC0" secondAttribute="bottom" id="5Us-oc-xHy"/>
+                            <constraint firstAttribute="trailing" secondItem="xhx-wk-ezR" secondAttribute="trailing" id="77p-7f-hgz"/>
+                            <constraint firstAttribute="trailing" secondItem="J2p-f5-rwD" secondAttribute="trailing" constant="16" id="Jgv-3c-8Ph"/>
+                            <constraint firstItem="sU8-kp-Zib" firstAttribute="leading" secondItem="S3S-Oj-5AN" secondAttribute="leading" constant="16" id="Lp7-kl-8yx"/>
+                            <constraint firstAttribute="trailing" secondItem="sU8-kp-Zib" secondAttribute="trailing" constant="16" id="Pau-Ko-NDk"/>
+                            <constraint firstItem="sU8-kp-Zib" firstAttribute="top" secondItem="xhx-wk-ezR" secondAttribute="bottom" id="WMp-l7-Ueo"/>
+                            <constraint firstItem="J2p-f5-rwD" firstAttribute="leading" secondItem="S3S-Oj-5AN" secondAttribute="leading" constant="16" id="jqj-92-ZRc"/>
+                            <constraint firstItem="FKl-LY-JtV" firstAttribute="top" secondItem="J2p-f5-rwD" secondAttribute="bottom" constant="8" id="k9I-9p-PvY"/>
+                        </constraints>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="320" height="300"/>
+                    <connections>
+                        <outlet property="imageView" destination="xhx-wk-ezR" id="1EX-eu-NOd"/>
+                        <outlet property="notificationBody" destination="J2p-f5-rwD" id="1Mu-tS-xmJ"/>
+                        <outlet property="notificationTitle" destination="sU8-kp-Zib" id="bJp-df-fs6"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vXp-U4-Rya" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-27.199999999999999" y="56.671664167916049"/>
+        </scene>
+    </scenes>
+</document>
