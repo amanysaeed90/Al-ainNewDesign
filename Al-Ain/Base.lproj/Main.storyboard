@@ -4246,13 +4246,15 @@
                                 <color key="selectedSegmentTintColor" red="0.49804407360000003" green="0.49803286790000001" blue="0.49803507330000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </segmentedControl>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9eg-d8-S3r" customClass="RoundedCornerButton" customModule="Al_Ain" customModuleProvider="target">
-                                <rect key="frame" x="11" y="23" width="186.33333333333334" height="31"/>
+                                <rect key="frame" x="11" y="23" width="121" height="31"/>
                                 <color key="backgroundColor" red="0.89020448919999995" green="0.89018517730000002" blue="0.89018899200000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="31" id="iGC-61-cAm"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" id="mEF-Zh-Khr"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="HelveticaNeueLTArabic-Bold" family="Helvetica Neue LT Arabic" pointSize="12"/>
-                                <inset key="imageEdgeInsets" minX="-15" minY="5" maxX="0.0" maxY="0.0"/>
+                                <inset key="contentEdgeInsets" minX="6" minY="0.0" maxX="6" maxY="0.0"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="5" maxX="0.0" maxY="0.0"/>
                                 <state key="normal" title="اختیار الأقسام المفضلة" image="pencil">
                                     <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
@@ -4279,8 +4281,6 @@
                             <constraint firstItem="9eg-d8-S3r" firstAttribute="leading" secondItem="7ft-85-MGU" secondAttribute="leading" constant="11" id="FOi-qe-fGN"/>
                             <constraint firstAttribute="trailing" secondItem="Ub1-bl-jjB" secondAttribute="trailing" constant="15" id="QgO-sU-luO"/>
                             <constraint firstAttribute="trailing" secondItem="tcC-rl-8Wt" secondAttribute="trailing" id="Rnh-uc-PtQ"/>
-                            <constraint firstItem="Ub1-bl-jjB" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="9eg-d8-S3r" secondAttribute="trailing" constant="15.33" id="hQz-7K-v2u"/>
-                            <constraint firstItem="9eg-d8-S3r" firstAttribute="width" secondItem="7ft-85-MGU" secondAttribute="width" multiplier="0.45" id="lag-qK-1if"/>
                             <constraint firstItem="Ub1-bl-jjB" firstAttribute="top" secondItem="HiM-ys-XrX" secondAttribute="bottom" constant="23" id="nBS-Yc-SVZ"/>
                             <constraint firstItem="tcC-rl-8Wt" firstAttribute="leading" secondItem="7ft-85-MGU" secondAttribute="leading" id="tPK-7I-Wpd"/>
                         </constraints>
@@ -4818,7 +4818,7 @@
             <size key="intrinsicContentSize" width="37" height="34"/>
         </designable>
         <designable name="9eg-d8-S3r">
-            <size key="intrinsicContentSize" width="109" height="14"/>
+            <size key="intrinsicContentSize" width="121" height="14"/>
         </designable>
         <designable name="fwH-Pw-REz">
             <size key="intrinsicContentSize" width="42.333333333333336" height="15.333333333333334"/>

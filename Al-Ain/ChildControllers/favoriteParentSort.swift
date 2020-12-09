@@ -54,6 +54,7 @@ class favoriteParentSort: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setupView()
+        editfavoriteSectionsBtn.setTitle("chosesection".localized(), for: .normal)
         
         // Do any additional setup after loading the view.
     }
